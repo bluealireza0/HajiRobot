@@ -14,8 +14,8 @@ ob_implicit_flush(1);
 error_reporting(0);*/
 date_default_timezone_set('Asia/Tehran');
 
-$admin = "0000000000";
-$TOKEN = "00000000";
+$admin = "367690492";
+$TOKEN = $_ENV['API_TOKEN'];
 define('API_KEY', $TOKEN, true);
 
 $button_dokme_adm = json_encode(['keyboard'=>[
